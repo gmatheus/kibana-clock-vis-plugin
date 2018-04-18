@@ -1,0 +1,7 @@
+<div
+  ng-controller="ClockVisController"
+  class="clockVis"
+  ng-style="{'font-size': vis.params.fontSize + 'pt'}"
+>
+  {{ time | date:vis.params.format }}
+</div>
